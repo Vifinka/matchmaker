@@ -140,7 +140,7 @@
     }
 }
 
-@media only screen and (max-width: 230px) {
+@media only screen and (min-width: 230px) {
     .one_image{
         width:60%;
         height:25%;
@@ -424,7 +424,7 @@ function gender(){
             document.getElementById("gender").innerText = "GEnder: slight preference for women";
         }
         else if(woman < man + 60){
-            document.getElementById("gender").innerText = "GEnder: preference for men";
+            document.getElementById("gender").innerText = "GEnder: preference for women";
         }
         else{
             document.getElementById("gender").innerText = "GEnder: big preference for women";
